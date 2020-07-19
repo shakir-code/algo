@@ -20,7 +20,7 @@ public class BSTIterator {
     public int next() {
           TreeNode node = stack.pop();
           if(node.right!=null){
-              generateStack(node);
+              generateStack(node.right);
           }
           return node.val;
     }
