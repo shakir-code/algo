@@ -1,4 +1,4 @@
-package trees;
+package linkedList;
 
 
 //1. Run 1x & 2x pointer which will meet at D+K
